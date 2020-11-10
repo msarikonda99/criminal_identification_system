@@ -34,7 +34,7 @@
         }
         section
 
-        {
+        { 
         	margin-top: -20px;
         }
     </style>
@@ -54,9 +54,9 @@
  		     <ul>
  			    <li><a href="index.php">HOME</a></li>
  			    <li><a href="feeback.php">FEEBACK</a></li>
-          <li><a href="records.php">RECORDS</a></li>
  			    <li><a href="registration.php">REGISTRATION</a></li>
  			    <li><a href="logout.php">LOGOUT</a></li>
+          
  		     </ul>
  	       </nav>	
  	       ';
@@ -71,6 +71,7 @@
           <li><a href="records.php">RECORDS</a></li>
  			    <li><a href="registration.php">REGISTRATION</a></li>
  			    <li><a href="login.php">LOGIN</a></li>
+        
  		     </ul>
  	       </nav>	
       	';
@@ -84,10 +85,12 @@
                   <ul>
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="feeback.php">FEEBACK</a></li>
+                    <li><a href="records.php">RECORDS</a></li>
                     <li><a href="registration.php">REGISTRATION</a></li>
                     <li><a href="logout.php">LOGOUT</a></li>
-                   <li><a href="records.php">RECORDS</a></li>
-<!--<li><a href="logout.php">LOGOUT</a></li>-->
+                   <!-- <li><a href="admin.php">ADMIN</a></li>-->
+                   <!-- <li><a href="records.php">RECORDS</a></li>
+                    <li><a href="logout.php">LOGOUT</a></li>-->
                   </ul>
                 </nav>  
                 <?php
@@ -99,10 +102,12 @@
                   <ul>
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="feeback.php">FEEBACK</a></li>
+                    <li><a href="records.php">RECORDS</a></li>
                     <li><a href="registration.php">REGISTRATION</a></li>
                     <li><a href="login.php">LOGIN</a></li>
-                   <li><a href="records.php">RECORDS</a></li>
-                   <!--<li><a href="logout.php">LOGOUT</a></li>-->
+                  <!--  <li><a href="admin.php">ADMIN</a></li>-->
+                   <!-- <li><a href="records.php">RECORDS</a></li>-->
+                  <!--  <li><a href="logout.php">LOGOUT</a></li>-->
                   </ul>
                 </nav>  
 

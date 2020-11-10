@@ -83,7 +83,7 @@
 		<br><br>
        <div class="box2">
        	 <h1 style="text-align: center;font-size:35px;font-family: Lucida Console;"> </h1><br>
- 	     <h1 style="text-align: center;font-size:25px;"> POLICE REGISTRATION FORM</h1>
+ 	     <h1 style="text-align: center;font-size:25px;"> TRAFFIC REGISTRATION FORM</h1>
  	      <form class="resgistration" action="" method="post">
  	      	<br>
  	      	<div class="singup">
@@ -132,7 +132,7 @@
         if($count==0) 
         {
           
-             	  mysqli_query($db,"INSERT INTO `admin` VALUES('','$_POST[first]','$_POST[last]','$_POST[username]','$_POST[password]','$_POST[email]','$_POST[number]','$_POST[othernumber]','1.jpg');");
+             	  mysqli_query($db,"INSERT INTO `resgistration` VALUES('','$_POST[first]','$_POST[last]','$_POST[username]','$_POST[password]','$_POST[email]','$_POST[number]','$_POST[othernumber]','1.jpg');");
 
         ?>
           <script type="text/javascript">

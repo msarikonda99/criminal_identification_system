@@ -66,17 +66,14 @@ session_start();
         <li><a href="index.php">HOME</a></li>
         <li><a href="feeback.php">FEEBACK</a></li>
         <li><a href="records.php">RECORDS</a></li>
-        <li><a href="login.php">POLICE</a></li>
+        <li><a href="login.php">TRAFFIC</a></li>
        
        </ul>
 
       <?php
         if(isset($_SESSION['login_user']))
         { ?>
-            
-            <ul class="nav  navbar-nav">
-              <li><a href="traffic.php">TRAFFIC - INFORMATION</a></li>
-            </ul>     
+                
           
           <ul  class="nav  navbar-nav navbar-right">
                <li><a href="">

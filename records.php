@@ -18,32 +18,8 @@ session_start();
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-     <style type="text/css">
-     	body
-     	{
-     		background-image: url("images/4.jpg");
-     	}
-     	.wra
-     	{  padding: 10px;
-     		margin: 20px auto;
-     		width: :900px;
-     		height: 600px;
-     		background-color: white;
-     		opacity: 0.8;
-     		color: black;
-     	}
-     	.form-control
-     	{
-     		height: 70px;
-     		width: 60%;
-     	}
-     	.scroll
-     	{
-     		width: 100%;
-     		height: 400px;
-     		overflow: auto;
-     	}
-     </style>
+     
+     	
 </head>
 <body>
 <style type="text/css">
@@ -70,7 +46,7 @@ session_start();
         <li><a href="index.php">HOME</a></li>
         <li><a href="feeback.php">FEEBACK</a></li>
        <li><a href="records.php">RECORDS</a></li>
-       <li><a href="traffic.php">TRAFFIC INFORMATION</a></li>
+       <!-- <li><a href="login.php">POLICE</a></li>-->
        
        </ul>
 
@@ -79,7 +55,7 @@ session_start();
         { ?>
           
             <ul class="nav  navbar-nav">
-              <li><a href="traffic.php">TRAFFIC INFORMATION</a></li>
+              <li><a href="records.php">RECORDS</a></li>
             </ul> 
                 
           
@@ -113,7 +89,7 @@ session_start();
    </div>
   </nav>
 
- <section>
+ <section style="background-image:r.jpg; ">
  	<div class="srch">
  	<form class="navbar-form" method="post" name="form1">
  		<input class="form-control" type="text" name="search" placeholder="search records.." required="">
@@ -122,7 +98,7 @@ session_start();
  	 </form>
  	
  </div>
- <h2>LIST OF RECORDS</h2>
+ <h2 style="color: green;">LIST OF RECORDS</h2>
   <?php
      if(isset($_POST['submit']))
      {
@@ -137,7 +113,7 @@ session_start();
       
 
         echo "<table class='table table-bordered table-hover'>";
-        echo "<tr style='background-color:#6db6b9e6;'>";
+        echo "<tr style='background-color:blue;'>";
         echo "<th>"; echo "ID"; echo "</th>";
         echo "<th>"; echo " Name"; echo "</th>";
         echo "<th>"; echo "case name"; echo "</th>";
@@ -167,7 +143,7 @@ session_start();
       
 
         echo "<table class='table table-bordered table-hover'>";
-        echo "<tr style='background-color:#6db6b9e6;'>";
+        echo "<tr style='background-color:grey;'>";
         echo "<th>"; echo "ID"; echo "</th>";
         echo "<th>"; echo " Name"; echo "</th>";
         echo "<th>"; echo "case name"; echo "</th>";

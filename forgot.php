@@ -25,6 +25,25 @@
    {
     margin-top: -20px;
    }
+   .log_img{
+  background-image: url("images/p.jpg"); 
+}
+.box1{
+  height: 450px;
+  width: 450px;
+  margin: 60px auto;
+  background-color:black; 
+  opacity: .9;
+  color: orange;
+
+}
+form.login{
+  margin:auto 40px;
+}
+input{
+  height: 25px;
+  width: 300px;
+}
   
 </style>
 <body>
@@ -103,7 +122,7 @@
     </ul>
   </nav>
 </header>-->
-<section style="height: 500px;">
+<section style="height: 500px;  ">
   <div class="log_img">
     <br><br>
        <div class="box1">
@@ -138,7 +157,7 @@
  <?php
    if(isset($_POST['submit']))
     {
-      if(mysqli_query($db,"UPDATE admin SET password='$_POST[password]' where username='$_POST[username]'AND email='$_POST[email]'; "))
+      if(mysqli_query($db,"UPDATE resgistration SET password='$_POST[password]' where username='$_POST[username]'AND email='$_POST[email]'; "))
       {
         ?>
         <script type="text/javascript">

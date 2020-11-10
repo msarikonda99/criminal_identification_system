@@ -39,17 +39,13 @@
        <ul class="nav  navbar-nav">
         <li><a href="index.php">HOME</a></li>
         <li><a href="feeback.php">FEEBACK</a></li>
-       <li><a href="records.php">RECORDS</a></li>
-        <li><a href="login.php">POLICE</a></li>
-          <li><a href="traffic.php">TRAFFIC INFORMATION</a></li>
+        <li><a href="records.php">RECORDS</a></li>
+        <li><a href="login.php">TRAFFIC</a></li>
        
        </ul>
        <?php
         if(isset($_SESSION['login_user']))
         {?>
-            <ul class="nav  navbar-nav">
-              <li><a href="traffic.php">TRAFFIC - INFORMATION</a></li>
-            </ul> 
           <ul  class="nav  navbar-nav navbar-right">
                <li><a href="">
                  <div style="color: white">
@@ -60,7 +56,6 @@
                  </div>
                </a></li>
             <li><a href="logout.php"><span class="glyphicon glyphicon-log-out">LOGOUT</span> </a></li>
-           
           </ul>
           <?php
         }
@@ -109,14 +104,14 @@
 		<br><br>
        <div class="box1">
        	 <h1 style="text-align: center;font-size:35px;font-family: Lucida Console;"> </h1><br>
- 	     <h1 style="text-align: center;font-size:25px;">  POLICE  LOGIN FORM</h1>
+ 	     <h1 style="text-align: center;font-size:25px;"> TRAFFIC POLICE  LOGIN FORM</h1>
  	      <form class="login" action="" method="post">
  	      	<br>
  	      	<div class="login">
  	      		<input  class ="form-control" type="text" name="username" placeholder="username" required=""><br><br>
  	      	    <input class="form-control" type="text" name="password" placeholder="password" required=""><br><br>
  	      	   <input class="btn btn-default" type="submit" name="submit" value="login" style="color: black;width: 70px;height: 30px"> 
-             <a href="recived.php">login</a>
+             <<a href="upload.php">login</a>
  	      	  <!--  <button style="background-color: green">SIGN UP</button>-->
                 
  	      		
@@ -143,7 +138,7 @@
    if(isset($_POST['submit']))
     { 
      $count=0;
-  	 $res=mysqli_query($db,"SELECT * FROM `admin`WHERE username='$_POST[username]' &&  password='$_POST[password]' ;");
+  	 $res=mysqli_query($db,"SELECT * FROM `resgistration`WHERE username='$_POST[username]' &&  password='$_POST[password]' ;");
      $row=mysqli_fetch_assoc($res);
      $count=mysqli_num_rows($res);
   	 if ($count==0)
