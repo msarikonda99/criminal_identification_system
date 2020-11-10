@@ -1,0 +1,107 @@
+.wrapper{
+	height: 660px;
+	width: 1320px;
+/*	background-color: black;*/
+}
+header{
+	height: 190px;
+	width: 1320px;
+	background-color: black;
+	/*text-decoration:none;*/
+}
+section{
+height: 550px;
+	width: 1320px;
+	background-color:gray;
+}
+/*.myslide{
+	display: none;*/
+}
+footer{
+height: 180px;
+	width: 1320px;
+	background-color: blue;
+}
+.logo{
+	float: left;
+	padding.right: 10px;
+	color:red;
+     
+}
+.logo h1{
+	text-align: right;
+}
+li a{
+	color: green;
+	text-decoration:none;
+
+}
+/*
+nav{
+	float: right;
+	word-spacing: 30px;
+	
+	padding: 20px;
+
+}
+nav li{
+	display: inline-block;
+line-height: 80px;
+}*/
+/*h1{
+	text-align: center;
+}*/
+section{
+		background-image: url("images/.jpg"); 
+}
+.box{
+	height: 150px;
+	width: 250px;
+	margin: 60px auto;
+	background-color:gray; 
+	opacity: .6;
+	color: black;
+
+}
+/* stud*/
+
+.log_img{
+	background-image: url("images/i.jpg"); 
+}
+.box1{
+	height: 450px;
+	width: 450px;
+	margin: 60px auto;
+	background-color:black; 
+	opacity: .9;
+	color: orange;
+
+}
+form.login{
+	margin:auto 40px;
+}
+input{
+	height: 25px;
+	width: 300px;
+}
+/*   registration */
+.res_img{
+	background-image: url("images/i.jpg"); 
+}
+.box2{
+	height: 600px;
+	width: 450px;
+	margin: 60px auto;
+	background-color:black; 
+	opacity: .9;
+	color: pink;
+
+}
+form.registration{
+	margin:auto 40px;
+}
+input{
+	height: 25px;
+	width: 300px;
+}
+ 
